@@ -6,4 +6,9 @@ Rails.application.routes.draw do
   # namespace :api do
   #   get "/photos" => "photos#index"
   # end
+  
+    get "/" => "api/welcomes#hello"
+    get "/about" => "api/welcomes#about"
+  
 end
+
